@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dietplan.dietplanfull.Beauty1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/brownText"
+                android:text="Mau Bibir Merah Tanpa Lipstick, Gampang Kok!"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/redlip"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/imageView" />
+
+
+
+            <TextView
+                android:id="@+id/textMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|right"
+                android:textColor="@color/brownText"
+                android:layout_below="@+id/imageView"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView" />
+
+            <!--android:text="Siapa yang tidak tahu buah manis dan asam ini Oatlovers? Nah buah yang bentuknya bulat seperti sawo ini banyak sekali manfaatnya loh. Selain warnanya yang menggiurkan ini, banyak kadar vitamin C pada buah kiwi ini sangat baik bagi kebutuhan kita loh, Oatlovers.-->
+            <!--Nah Oatlovers, disini akan kita bahas berbagai manfaat yang sangat banyak sekali manfaat buah kiwi yang sangat baik untuk Oatlovers.-->
+            <!--"-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/judul1"-->
+            <!--android:text="Mencegah penyakit kardiovaskular"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/brownText"-->
+            <!--android:textSize="13dp"-->
+            <!--android:layout_below="@+id/textMain"-->
+            <!--android:layout_alignLeft="@+id/textMain"-->
+            <!--android:layout_alignStart="@+id/textMain" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/textMain2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sebuah studi menunjukkan bahwa mengkonsumsi 2-3 buah kiwi per hari membantu mengencerkan darah, mengurangi pembekuan darah dan menurunkan kadar lemak dalam darah sehingga bermanfaat mempertahankan kesehatan jantung"-->
+            <!--android:layout_gravity="left|right"-->
+            <!--android:textColor="@color/brownText"-->
+            <!--android:layout_below="@+id/judul1"-->
+            <!--android:layout_alignLeft="@+id/textView"-->
+            <!--android:layout_alignStart="@+id/textView" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/judul2"-->
+            <!--android:text="Mencegah Kanker"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/brownText"-->
+            <!--android:textSize="13dp"-->
+            <!--android:layout_below="@+id/textMain2"-->
+            <!--android:layout_alignLeft="@+id/textMain"-->
+            <!--android:layout_alignStart="@+id/textMain" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/textMain3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Menurut Rowett Research di Inggris, mengkonsumsi buah Kiwi emas setiap hari akan memberikan hampir dua kali lipat tingkat perbaikan DNA Anda. Ini adalah jenis kerusakan genetik yang dapat bertanggung jawab terhadap kanker."-->
+            <!--android:layout_gravity="left|right"-->
+            <!--android:textColor="@color/brownText"-->
+            <!--android:layout_below="@+id/judul2"-->
+            <!--android:layout_alignLeft="@+id/textView"-->
+            <!--android:layout_alignStart="@+id/textView" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

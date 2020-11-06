@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dietplan.dietplanfull.SportMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="3" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/olahragabsmkawan"
+            android:weightSum="2">
+
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:onClick="gotoSport1"
+                android:text="Manfaat Berolahraga Bersama \nKawan"/>
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoSport1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/yoga"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoSport2"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:text="Yoga Membuat Sirkulasi Nafas Lancar"
+                android:layout_above="@+id/pic3"
+                android:onClick="gotoSport2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/joging"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:onClick="gotoSport3"
+                android:text="Badan Sehat Bugar dengan \nJogging"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoSport3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    tools:context="com.example.dietplan.dietplanfull.Recipe1Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/bananaoat"
+                android:layout_width="175dp"
+                android:layout_height="250dp"
+                android:id="@+id/recipe1"
+                android:layout_weight="1"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/judul"
+                    android:text="Overnight Banana Oatmeal"
+                    android:textColor="@color/brownText"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:background="@drawable/judul"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <RelativeLayout
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/judul"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textView" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="Jumlah Sajian"
+                        android:gravity="center"
+                        android:textColor="@color/brownText"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_alignLeft="@+id/textView"
+                        android:layout_alignStart="@+id/textView"
+                        android:id="@+id/textView3" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="Durasi Persiapan"
+                        android:gravity="center"
+                        android:textColor="@color/brownText"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:id="@+id/textView2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_toRightOf="@+id/textView3"
+                        android:layout_toEndOf="@+id/textView3" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="Durasi Memasak"
+                        android:gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/brownText"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:id="@+id/textView4"
+                        android:layout_alignTop="@+id/textView"
+                        android:layout_toRightOf="@+id/textView2"
+                        android:layout_toEndOf="@+id/textView2" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="1 Porsi"
+                        android:gravity="center"
+                        android:textColor="@color/brownText"
+                        android:textSize="10dp"
+                        android:id="@+id/textView5"
+                        android:layout_alignBottom="@+id/textView"
+                        android:layout_toLeftOf="@+id/textView2"
+                        android:layout_toStartOf="@+id/textView2" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="10 Menit"
+                        android:gravity="center"
+                        android:textColor="@color/brownText"
+                        android:textSize="10dp"
+                        android:id="@+id/textView6"
+                        android:layout_below="@+id/textView2"
+                        android:layout_alignLeft="@+id/textView2"
+                        android:layout_alignStart="@+id/textView2" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:text="8 Jam"
+                        android:gravity="center"
+                        android:textColor="@color/brownText"
+                        android:textSize="10dp"
+                        android:id="@+id/textView7"
+                        android:layout_below="@+id/textView4"
+                        android:layout_alignLeft="@+id/textView4"
+                        android:layout_alignStart="@+id/textView4" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/judul"
+                        android:id="@+id/textView8"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:background="@drawable/recipea"
+                        android:layout_alignTop="@+id/textView8"
+                        android:layout_alignLeft="@+id/textView8"
+                        android:layout_alignStart="@+id/textView8" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="3dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="250dp"
+                android:maxLines="10"
+                android:background="@drawable/judul"
+                android:id="@+id/textView9"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="@color/brownText"
+                android:text="Bahan-bahan : \n 1/2 cup susu almond rendah gula \n 2 sdm selai kacang \n 1/2 pisang yang dipotong kecil-kecil \n 1 sdt biji chia \n 1 sdt kacang yang di sangrai tanpa garam"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="250dp"
+                android:background="@drawable/judul"
+                android:id="@+id/textView10"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/brownText"
+                android:text="Cara Memasak : \n 1. Tuangkan susu almond \n      kedalam mason jar. Aduk \n      dengan selai kacang \n      hingga merata \n 2. Tambahkan pisang, biji chia,\n      dan oat. Aduk  hingga merata \n 3. Setelah selesai, simpan di \n      dalam kulkas semalaman. \n 4. Di pagi hari, aduk oat dan \n      tambahkan susu almond \n      secukupnya. Taburkan \n      kacang di atasnya, \n      overnight banana oat \n      siap disajikan."
+                android:layout_alignTop="@+id/textView9"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_alignParentBottom="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

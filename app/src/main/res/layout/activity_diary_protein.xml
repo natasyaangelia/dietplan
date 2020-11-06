@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/background_light"
+    tools:context="com.example.dietplan.diary.DiaryProteinActivity">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/kolomsearch"
+        android:drawableLeft="@drawable/searchicon"
+        android:ems="10"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:id="@+id/searchEnergyDiary"
+        android:hint="Search"
+        android:paddingLeft="15dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fruit"
+        android:id="@+id/btnFruit"
+        android:onClick="gotoFruit"
+        android:layout_below="@+id/searchEnergyDiary"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="83dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/vegetable"
+        android:id="@+id/btnVegetable"
+        android:onClick="gotoVegetable"
+        android:layout_alignTop="@+id/btnProtein"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/protein"
+        android:id="@+id/btnProtein"
+        android:onClick="gotoProtein"
+        android:layout_marginLeft="217dp"
+        android:layout_alignTop="@+id/btnFruit" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/drink"
+        android:id="@+id/btnDrink"
+        android:onClick="gotoDrink"
+        android:layout_below="@+id/btnFruit"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="83dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/othersnack"
+        android:id="@+id/btnOtherSnack"
+        android:onClick="gotoOtherSnack"
+        android:layout_below="@+id/btnFruit"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/oat8products"
+        android:id="@+id/btnOat8"
+        android:onClick="gotoOat8"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/btnProtein"
+        android:layout_alignStart="@+id/btnProtein" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btnDrink"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bgbmi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/brownText"
+        android:layout_below="@id/btnDrink"
+        android:id="@+id/txtJudul"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/listprotein"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/searchEnergyDiary"
+        android:layout_alignStart="@+id/searchEnergyDiary"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="180dp"
+        android:background="@drawable/listproteintotal"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/btnOtherSnack"
+        android:layout_toEndOf="@+id/btnOtherSnack"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="180dp"
+        android:background="@drawable/kallist"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/almondProteinKal"
+        android:layout_alignRight="@+id/searchEnergyDiary"
+        android:layout_alignEnd="@+id/searchEnergyDiary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bgbmi"
+        android:layout_below="@+id/textView"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonlink"
+        android:textSize="10dp"
+        android:onClick="addHistory"
+        android:textColor="@android:color/background_light"
+        android:text="Add to diary"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignTop="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/almondProtein"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/kacangRebus"
+        android:layout_alignStart="@+id/kacangRebus" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/kacangRebus"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/almondProtein"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/telor"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/kacangRebus"
+        android:layout_alignLeft="@+id/kacangRebus"
+        android:layout_alignStart="@+id/kacangRebus" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/tahu"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/telor"
+        android:layout_alignLeft="@+id/telor"
+        android:layout_alignStart="@+id/telor" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/tempe"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/tahu"
+        android:layout_alignStart="@+id/tahu"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/almondProteinKal"
+        android:layout_alignBottom="@+id/kacangRebusMinus"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/kacangRebusKal"
+        android:layout_above="@+id/telor"
+        android:layout_alignLeft="@+id/almondProteinKal"
+        android:layout_alignStart="@+id/almondProteinKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/telorKal"
+        android:layout_alignTop="@+id/telor"
+        android:layout_alignLeft="@+id/kacangRebusKal"
+        android:layout_alignStart="@+id/kacangRebusKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/tahuKal"
+        android:layout_alignTop="@+id/tahu"
+        android:layout_alignLeft="@+id/telorKal"
+        android:layout_alignStart="@+id/telorKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/tempeKal"
+        android:layout_alignTop="@+id/tempe"
+        android:layout_alignLeft="@+id/tahuKal"
+        android:layout_alignStart="@+id/tahuKal" />
+
+    <!--Button-->
+    <!--Plus-->
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/almondProteinPlus"
+        android:onClick="plusalmondProtein"
+        android:layout_above="@+id/kacangRebus"
+        android:layout_alignLeft="@+id/kacangRebusPlus"
+        android:layout_alignStart="@+id/kacangRebusPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/kacangRebusPlus"
+        android:onClick="pluskacangRebus"
+        android:layout_alignBottom="@+id/kacangRebus"
+        android:layout_alignRight="@+id/txtJudul"
+        android:layout_alignEnd="@+id/txtJudul" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/telorPlus"
+        android:onClick="plustelor"
+        android:layout_above="@+id/tahu"
+        android:layout_alignLeft="@+id/almondProteinPlus"
+        android:layout_alignStart="@+id/almondProteinPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/tahuPlus"
+        android:onClick="plustahu"
+        android:layout_alignBottom="@+id/tahu"
+        android:layout_alignLeft="@+id/telorPlus"
+        android:layout_alignStart="@+id/telorPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/tempePlus"
+        android:onClick="plustempe"
+        android:layout_alignBottom="@+id/tempe"
+        android:layout_alignLeft="@+id/tahuPlus"
+        android:layout_alignStart="@+id/tahuPlus" />
+
+    <!--Minus-->
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/almondProteinMinus"
+        android:onClick="minkacangRebus"
+        android:layout_above="@+id/telor"
+        android:layout_alignLeft="@+id/kacangRebusMinus"
+        android:layout_alignStart="@+id/kacangRebusMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/kacangRebusMinus"
+        android:onClick="minalmondProtein"
+        android:layout_above="@+id/kacangRebus"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_marginRight="12dp"/>
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/telorMinus"
+        android:onClick="mintelor"
+        android:layout_alignBottom="@+id/telorKal"
+        android:layout_alignLeft="@+id/almondProteinMinus"
+        android:layout_alignStart="@+id/almondProteinMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/tahuMinus"
+        android:onClick="mintahu"
+        android:layout_alignBottom="@+id/tahuKal"
+        android:layout_alignLeft="@+id/telorMinus"
+        android:layout_alignStart="@+id/telorMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/tempeMinus"
+        android:onClick="mintempe"
+        android:layout_alignBottom="@+id/tempeKal"
+        android:layout_alignLeft="@+id/tahuMinus"
+        android:layout_alignStart="@+id/tahuMinus" />
+
+
+</RelativeLayout>

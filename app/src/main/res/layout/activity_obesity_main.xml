@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dietplan.dietplanfull.ObesityMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="3" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/ngemil"
+            android:weightSum="2">
+
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="gotoObesity1"
+                android:paddingRight="2dp"
+                android:text="Kegemaran \n'Ngemil' Orang Indonesia"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoObesity1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/makansedikit"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoObesity2"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2"
+                android:textAllCaps="false"
+                android:onClick="gotoObesity2"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:text="Makan dengan Lambat Bisa Mencegah Obesitas"
+                android:layout_above="@+id/pic3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/kegemukan"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="gotoObesity3"
+                android:paddingRight="2dp"
+                android:text="Kegemukan Tingkatkan \nResiko Kanker"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoObesity3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

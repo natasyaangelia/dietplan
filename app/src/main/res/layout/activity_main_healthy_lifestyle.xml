@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dietplan.dietplanfull.MainHealthyLifestyleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="3" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/kiwi"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:onClick="gotoHealthy1"
+                android:text="Kiwi, Buah Sehat untuk\n Pencernaan"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text1a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoHealthy1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/masak"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoHealthy2"/>
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text2"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:onClick="gotoHealthy2"
+                android:textStyle="bold"
+                android:paddingRight="2dp"
+                android:text="Masak Sendiri: \nSehat dan Hemat!"
+                android:layout_above="@+id/pic3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/sarapan"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3"
+                android:textAllCaps="false"
+                android:background="@drawable/forgrndtransprnt"
+                android:gravity="right|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="gotoHealthy3"
+                android:paddingRight="2dp"
+                android:text="Ayo Sarapan! \nSebelum \nBeraktifitas"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:id="@+id/text3a"
+                android:background="@android:color/transparent"
+                android:onClick="gotoHealthy3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

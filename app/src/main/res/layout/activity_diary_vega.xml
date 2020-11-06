@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dietplan.diary.DiaryVegaActivity">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fruit"
+        android:id="@+id/btnFruit"
+        android:onClick="gotoFruit"
+        android:layout_below="@+id/searchEnergyDiary"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="83dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/vegetable"
+        android:id="@+id/btnVegetable"
+        android:onClick="gotoVegetable"
+        android:layout_alignTop="@+id/btnProtein"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/protein"
+        android:id="@+id/btnProtein"
+        android:onClick="gotoProtein"
+        android:layout_marginLeft="217dp"
+        android:layout_alignTop="@+id/btnFruit" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/drink"
+        android:id="@+id/btnDrink"
+        android:onClick="gotoDrink"
+        android:layout_below="@+id/btnFruit"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="83dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/othersnack"
+        android:id="@+id/btnOtherSnack"
+        android:onClick="gotoOtherSnack"
+        android:layout_below="@+id/btnFruit"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/oat8products"
+        android:id="@+id/btnOat8"
+        android:onClick="gotoOat8"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/btnProtein"
+        android:layout_alignStart="@+id/btnProtein" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btnDrink"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bgbmi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veggies"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/brownText"
+        android:layout_below="@id/btnDrink"
+        android:id="@+id/txtJudul"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/listvega"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/searchEnergyDiary"
+        android:layout_alignStart="@+id/searchEnergyDiary"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="180dp"
+        android:background="@drawable/listvegatotal"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/btnOtherSnack"
+        android:layout_toEndOf="@+id/btnOtherSnack"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="180dp"
+        android:background="@drawable/kallist"
+        android:id="@+id/textView3"
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/bayamKal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bgbmi"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonlink"
+        android:textSize="10dp"
+        android:textColor="@android:color/background_light"
+        android:text="Add to diary"
+        android:id="@+id/button"
+        android:onClick="addHistory"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignTop="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/bayam"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/btnOtherSnack"
+        android:layout_toEndOf="@+id/btnOtherSnack" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/jagung"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/bayam"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/kentang"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/jagung"
+        android:layout_alignLeft="@+id/jagung"
+        android:layout_alignStart="@+id/jagung" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/salad"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/kentang"
+        android:layout_alignLeft="@+id/kentang"
+        android:layout_alignStart="@+id/kentang" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/ubi"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/salad"
+        android:layout_alignStart="@+id/salad"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/bayamKal"
+        android:layout_above="@+id/jagung"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/jagungKal"
+        android:layout_above="@+id/kentang"
+        android:layout_alignLeft="@+id/bayamKal"
+        android:layout_alignStart="@+id/bayamKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/kentangKal"
+        android:layout_alignTop="@+id/kentang"
+        android:layout_alignLeft="@+id/jagungKal"
+        android:layout_alignStart="@+id/jagungKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/saladKal"
+        android:layout_alignTop="@+id/salad"
+        android:layout_alignLeft="@+id/kentangKal"
+        android:layout_alignStart="@+id/kentangKal" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:id="@+id/ubiKal"
+        android:layout_alignTop="@+id/ubi"
+        android:layout_alignLeft="@+id/saladKal"
+        android:layout_alignStart="@+id/saladKal" />
+
+    <!--Button-->
+    <!--Plus-->
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/bayamPlus"
+        android:onClick="plusbayam"
+        android:layout_marginLeft="185dp"
+        android:layout_alignBottom="@+id/bayam"/>
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/jagungPlus"
+        android:onClick="plusjagung"
+        android:layout_above="@+id/kentang"
+        android:layout_alignLeft="@+id/kentangPlus"
+        android:layout_alignStart="@+id/kentangPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/kentangPlus"
+        android:onClick="pluskentang"
+        android:layout_above="@+id/salad"
+        android:layout_alignLeft="@+id/bayamPlus"
+        android:layout_alignStart="@+id/bayamPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/saladPlus"
+        android:onClick="plussalad"
+        android:layout_alignBottom="@+id/salad"
+        android:layout_alignLeft="@+id/kentangPlus"
+        android:layout_alignStart="@+id/kentangPlus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/plus"
+        android:id="@+id/ubiPlus"
+        android:onClick="plusubi"
+        android:layout_alignBottom="@+id/ubi"
+        android:layout_alignLeft="@+id/saladPlus"
+        android:layout_alignStart="@+id/saladPlus" />
+
+    <!--Minus-->
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/bayamMinus"
+        android:onClick="minjagung"
+        android:layout_above="@+id/kentang"
+        android:layout_alignLeft="@+id/jagungMinus"
+        android:layout_alignStart="@+id/jagungMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/jagungMinus"
+        android:onClick="minbayam"
+        android:layout_above="@+id/jagung"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_marginRight="17dp"/>
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/kentangMinus"
+        android:onClick="minkentang"
+        android:layout_alignBottom="@+id/kentangKal"
+        android:layout_alignLeft="@+id/bayamMinus"
+        android:layout_alignStart="@+id/bayamMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/saladMinus"
+        android:onClick="minsalad"
+        android:layout_alignBottom="@+id/saladKal"
+        android:layout_alignLeft="@+id/kentangMinus"
+        android:layout_alignStart="@+id/kentangMinus" />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/minus"
+        android:id="@+id/ubiMinus"
+        android:onClick="minubi"
+        android:layout_alignBottom="@+id/ubiKal"
+        android:layout_alignLeft="@+id/saladMinus"
+        android:layout_alignStart="@+id/saladMinus" />
+
+
+
+</RelativeLayout>

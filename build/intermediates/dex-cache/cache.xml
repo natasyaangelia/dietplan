@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_aea83dad39bef305794e07bbd1dfa9e13c854b82\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_b13316d662562ae51ba800bdb142c4e413f95c91\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_f862c35ba5ee1a62dad51e5e206d202f62e03b17\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.5.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.5.0_9f5343dea54af6a9b38eaa5bd27fbbaf3157c67e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_269209eb379515484f591c766105aaa7fd0c44fc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_3f7919c9800e53d9627bf93418e191a144ea2628\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.bignerdranch.android\expandablerecyclerview\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f5eeb4583102dd6771ab71bc8f0c6965548dd3e0">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bignerdranch.android-expandablerecyclerview-1.0.3_d5de0774252cd9e44982d8a8bc53af173bdd976e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_bb9b2c1852e0e2ec8f907ab6ab5abc10a29bf3b7\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_3f19d9bafbd9c7655e56c9036491adad6232df67\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_22e1f9d7ed38822a842c5b81d438c78b0ac74dae\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_229c1c7814a400b50dd4974150e640fa10dff2ea\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_a9430978d9cb457cffa9d1173ded483a1b641dde\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_cd19681acf98dca5154d048117fabe5431b2b351\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.0.3_cae3fe964811dab814a4ac6aac51be3349f926b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="35b7da2f8227df9d8ada84b29865bceba26e17e1">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f32e0df471964d588c23639661cc79726e5dfd80\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_f8e4810798083181468653d21b5d48c070c38d1d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3da565810c5762360ab36f310bc2cedf78122424">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6036a9703d53a455f6eb643fd57d1356af1999ce\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_e4e4a2e483f447610797a50450639c0774691cd5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_43646fbec6291565021118baa50f3a3fdfb81557\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_10afbdce69a1aa58c167a6fddcbb36b95b12ed2c\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_b94fca387bba0e222267b44d8ff4ea8a9bf21bc4\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.weiwangcn.betterspinner-library-material-1.1.0_1aab797d3054670b583d2cecd53ec48d4d9b96ff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_46144c726f3b9321d7e8924bec052fc89afa7011\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\natasya angelia\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Project\DietPlan_Indah\program\DietPlanFull\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_db8503c058eb669b93ac1b5f4414bf33cdc1c040\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dietplan.dietplanfull.ArticleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:background="@drawable/healthylidestyle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/article1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_alignTop="@+id/textArticle1"
+            android:layout_toLeftOf="@+id/textArticle2"
+            android:layout_toStartOf="@+id/textArticle2" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/textArticle1"
+            android:text="Healthy Lifestyle"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:onClick="gotoArticle1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgrndtransprnt"
+            android:layout_alignTop="@+id/textArticle2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:background="@drawable/sport"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/article2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_alignTop="@+id/article1"
+            android:layout_toRightOf="@+id/textArticle1"
+            android:layout_toEndOf="@+id/textArticle1" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/textArticle2"
+            android:text="Sport"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:onClick="gotoArticle2"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgrndtransprnt"
+            android:layout_marginTop="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/article2"
+            android:layout_alignStart="@+id/article2" />
+
+        <TextView
+            android:background="@drawable/beauty"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/article3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/article1"
+            android:layout_alignLeft="@+id/textArticle1"
+            android:layout_alignStart="@+id/textArticle1" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/textArticle3"
+            android:text="Beauty"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:onClick="gotoArticle3"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgrndtransprnt"
+            android:layout_alignTop="@+id/article3"
+            android:layout_toLeftOf="@+id/article2"
+            android:layout_toStartOf="@+id/article2" />
+
+        <TextView
+            android:background="@drawable/obesity"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/article4"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/article1"
+            android:layout_toRightOf="@+id/article1"
+            android:layout_toEndOf="@+id/article1" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/textArticle4"
+            android:text="Obesity"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:onClick="gotoArticle4"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgrndtransprnt"
+            android:layout_alignTop="@+id/article3"
+            android:layout_alignLeft="@+id/article2"
+            android:layout_alignStart="@+id/article2" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/logo"
+        android:src="@drawable/ikonloat8"
+        android:contentDescription="logo"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

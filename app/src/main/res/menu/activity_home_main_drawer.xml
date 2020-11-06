@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+        <item
+            android:id="@+id/energyDiary"
+            android:icon="@drawable/energydiaryicon"
+            android:title="Energy Diary" />
+        <item
+            android:id="@+id/energyrecipe"
+            android:icon="@drawable/recipeicon"
+            android:title="Energy Recipe" />
+        <item
+            android:id="@+id/article"
+            android:icon="@drawable/articleicon"
+            android:title="Article" />
+        <item
+            android:id="@+id/energyPoint"
+            android:icon="@drawable/pointicon"
+            android:title="Energy Point" />
+        <item
+            android:id="@+id/ask"
+            android:icon="@drawable/askicon"
+            android:title="Ask Nutritionist" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/producticon"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/historyicon"
+            android:title="History" />
+    </group>
+
+
+</menu>

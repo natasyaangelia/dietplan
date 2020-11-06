@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dietplan.dietplanfull">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LevelActivity" />
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".HeightActivity" />
+        <activity android:name=".WeightActivity" />
+        <activity android:name=".ArticleActivity" />
+        <activity android:name=".MainHealthyLifestyleActivity" />
+        <activity android:name=".Healthy1Activity" />
+        <activity android:name=".Healthy2Activity" />
+        <activity android:name=".Healthy3Activity" />
+        <activity android:name=".SportMainActivity" />
+        <activity android:name=".Sport1Activity" />
+        <activity android:name=".Sport2Activity" />
+        <activity android:name=".Sport3Activity" />
+        <activity android:name=".BeautyMainActivity" />
+        <activity android:name=".Beauty1Activity" />
+        <activity android:name=".Beauty2Activity" />
+        <activity android:name=".Beauty3Activity" />
+        <activity android:name=".ObesityMainActivity" />
+        <activity android:name=".Obesity1Activity" />
+        <activity android:name=".Obesity2Activity" />
+        <activity android:name=".Obesity3Activity" />
+        <activity android:name=".Gallery1Activity" />
+        <activity android:name=".Gallery2Activity" />
+        <activity android:name=".Gallery3Activity" />
+        <activity android:name=".Gallery4Activity" />
+        <activity android:name=".Gallery5Activity" />
+        <activity android:name=".Recipe1Activity" />
+        <activity android:name=".Recipe2Activity" />
+        <activity android:name=".Recipe3Activity" />
+        <activity android:name=".Recipe4Activity" />
+        <activity
+            android:name=".HomeMainActivity"
+            android:label="@string/title_activity_home_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RecipeActivity" />
+        <activity android:name=".DiaryDrinkActivity"></activity>
+        <activity android:name=".DiaryFruitActivity">
+
+        </activity>
+        <activity android:name=".DiaryOatActivity">
+
+        </activity>
+        <activity android:name=".DiaryProteinActivity"></activity>
+        <activity android:name=".DiaryVegaActivity"></activity>
+        <activity android:name=".DiarySnackActivity"></activity>
+        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".AskAnExpertActivity"></activity>
+        <activity android:name=".EnergyPointActivity"></activity>
+        <activity android:name=".EnergyDiaryMainActivity"></activity>
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

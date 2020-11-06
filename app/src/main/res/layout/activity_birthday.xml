@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bgbmi"
+    tools:context="com.example.dietplan.dietplanfull.BirthdayActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:id="@+id/upButton"
+        android:src="@drawable/button2"
+        android:contentDescription="logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="back"
+        android:background="@drawable/backicon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textIntro"
+        android:text="Your Birthday"
+        android:textColor="@color/brownText"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:id="@+id/textYear"
+        android:text="Year"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/brownText"
+        android:layout_above="@+id/spinnerId2"
+        android:layout_alignLeft="@+id/spinnerId2"
+        android:layout_alignStart="@+id/spinnerId2"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/kolomkecil"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textIntro"
+        android:layout_toStartOf="@+id/textIntro">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinnerId1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:spinnerMode="dropdown"
+        android:gravity="center"
+        android:background="@drawable/kolomkecil"
+        android:layout_alignTop="@+id/spinnerId"
+        android:layout_centerHorizontal="true">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinnerId2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:spinnerMode="dropdown"
+        android:gravity="center"
+        android:background="@drawable/kolomkecil"
+        android:layout_alignTop="@+id/spinnerId1"
+        android:layout_toRightOf="@+id/textIntro"
+        android:layout_toEndOf="@+id/textIntro">
+    </Spinner>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/logo"
+        android:src="@drawable/ikonloat8"
+        android:contentDescription="logo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/next"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="nextHeight"
+        android:background="@drawable/arrow"
+        android:contentDescription="logo"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:id="@+id/textView2"
+        android:text="Month"
+        android:textColor="@color/brownText"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textYear"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:id="@+id/textView3"
+        android:text="Day"
+        android:textColor="@color/brownText"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/spinnerId"
+        android:layout_alignStart="@+id/spinnerId" />
+
+</RelativeLayout>
